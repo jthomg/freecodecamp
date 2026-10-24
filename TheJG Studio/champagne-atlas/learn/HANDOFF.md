@@ -1,3 +1,56 @@
+# Bubble Cards — round 4: all seven threads written
+
+Written 2026-10-24. James instructed: "Just do them. And push them". That explicitly waives
+per-thread spine approval for threads 2-7.
+
+## The library
+
+| Thread | Episodes | Cards | Verification record |
+|---|---|---|---|
+| grand-cru-premier-cru | 8 | 146 | HANDOFF.md, round 3 |
+| how-champagne-is-made | 8 | 161 | verification/how-champagne-is-made.VERIFICATION.md |
+| the-grapes | 8 | 140 | verification/the-grapes.VERIFICATION.md |
+| from-label-to-glass | 8 | 150 | verification/from-label-to-glass.VERIFICATION.md |
+| growers-and-houses | 8 | 156 | verification/growers-and-houses.VERIFICATION.md |
+| champagne-understood | 8 | 161 | verification/champagne-understood.VERIFICATION.md |
+| champagne-and-the-world | 8 | 152 | verification/champagne-and-the-world.VERIFICATION.md |
+
+Total: 56 episodes and 1,066 cards.
+
+## How threads 2-7 were made
+
+- **Who drafted them.** The spines were written by this session, not by James. Each thread was
+  researched and drafted by one writer agent, working from a shared brief (EDITORIAL rules, the
+  voice of the grand-cru thread, School as the thing to complement, the high-risk sentence list).
+- **What this session checked:**
+  - `check_one.py` for set-equality, card counts and word limits;
+  - every card containing a digit, a superlative or "first";
+  - consistency between threads;
+  - a browser load with all seven threads.
+- **Edits this session made:**
+  - champagne-understood: removed an unverified "more than twenty children killed", and an
+    unconfirmed job title ("head of Moët & Chandon");
+  - champagne-and-the-world: "seven permitted varieties" became eight, to match the-grapes
+    (Chardonnay Rose, 2025).
+- **The search budget ran out.** The shared web-search budget was exhausted near the end of
+  research for four of the six threads. Unsearched lines are marked in each record, and the claims
+  they would have checked were kept off the cards.
+- **Primary access.** No thread had primary-source access. Each record's FLAG lines are the list
+  for a primary check before shipping.
+
+## Checks (all seven threads)
+
+Chromium at 390px and 1100px: 7 threads and 56 episodes load; no 4xx, zero foreign requests,
+zero page errors, no horizontal scroll. The last episode was walked by keyboard to the end. Cache
+keys were re-derived. Cards contain no links.
+
+## For SITE
+
+COMMS F40 lists six possible errors in the existing pages. F39 (the 1911 riots) still stands. The
+guard still does not cover learn/ until the rglob fix lands.
+
+---
+
 # Bubble Cards — round 3: Grand Cru, Premier Cru is complete (all 8 episodes)
 
 Written 2026-10-24. This supersedes the "spine-only" status in the rounds below.

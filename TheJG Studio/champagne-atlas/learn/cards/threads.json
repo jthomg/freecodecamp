@@ -11,6 +11,78 @@
       "planned": 8,
       "path": "threads/open/grand-cru-premier-cru.json",
       "v": "e571271ed2"
+    },
+    {
+      "id": "how-champagne-is-made",
+      "title": "How Champagne Is Made",
+      "subtitle": "Every step from grape to cork, and the problem each step was invented to solve.",
+      "tags": [
+        "Craft",
+        "History"
+      ],
+      "planned": 8,
+      "path": "threads/open/how-champagne-is-made.json",
+      "v": "1405925d9e"
+    },
+    {
+      "id": "the-grapes",
+      "title": "The Grapes",
+      "subtitle": "Why champagne rests on three grapes, what each one brings, and the quieter varieties still waiting in the wings.",
+      "tags": [
+        "Craft",
+        "Place"
+      ],
+      "planned": 8,
+      "path": "threads/open/the-grapes.json",
+      "v": "4e009bfa82"
+    },
+    {
+      "id": "from-label-to-glass",
+      "title": "From Label to Glass",
+      "subtitle": "How to read a champagne label with confidence, and how to enjoy what is in the bottle once it is open.",
+      "tags": [
+        "Craft",
+        "Myth"
+      ],
+      "planned": 8,
+      "path": "threads/open/from-label-to-glass.json",
+      "v": "8f13dcd818"
+    },
+    {
+      "id": "growers-and-houses",
+      "title": "Growers and Houses",
+      "subtitle": "Who grows champagne's grapes, who makes and sells the wine, and how the two have needed each other for three centuries.",
+      "tags": [
+        "Trade",
+        "History"
+      ],
+      "planned": 8,
+      "path": "threads/open/growers-and-houses.json",
+      "v": "8afafe645f"
+    },
+    {
+      "id": "champagne-understood",
+      "title": "Champagne Understood",
+      "subtitle": "The true history behind champagne's most famous stories, from a monk who fought the bubbles to the long fight over a name.",
+      "tags": [
+        "History",
+        "Myth"
+      ],
+      "planned": 8,
+      "path": "threads/open/champagne-understood.json",
+      "v": "ba3e95c3de"
+    },
+    {
+      "id": "champagne-and-the-world",
+      "title": "Champagne and the World",
+      "subtitle": "What makes champagne itself, how the world's other sparkling wines are made, and how a warming climate is changing the picture.",
+      "tags": [
+        "Place",
+        "Trade"
+      ],
+      "planned": 8,
+      "path": "threads/open/champagne-and-the-world.json",
+      "v": "d7c3474837"
     }
   ]
 }
