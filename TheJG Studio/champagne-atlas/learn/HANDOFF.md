@@ -1,3 +1,130 @@
+# Bubble Cards — round 3: Grand Cru, Premier Cru is complete (all 8 episodes)
+
+Written 2026-10-24. This supersedes the "spine-only" status in the rounds below.
+
+## What changed, and on whose word
+
+- **Episodes 2-8 are now written.** James's instruction in this window was "Ok complete the rest of
+  the threads and push them".
+- **Two spine changes.** I took that "Ok" as a yes to the two changes put to him here:
+  - ep7 is replaced by "The Year the Vineyards Rioted" (SITE found the old ep7 duplicated School);
+  - the ep4 hook now leads with geography rather than taste.
+  If James meant otherwise, both are easy to revert.
+- **The other six threads are NOT written, and no spine has been proposed for them.**
+  EDITORIAL.md says each spine is approved by James before cards, and accuracy at roughly 1,100 more
+  cards cannot be done responsibly in one sitting. The next step is to propose thread 2's spine.
+
+## Inventory
+
+| Ep | Title | Cards (+ card zero) |
+|---|---|---|
+| 1 | The Words on the Label | 21 |
+| 2 | A Ladder Built to Pay Growers | 19 |
+| 3 | How the Ladder Moved | 16 |
+| 4 | Seventeen Villages, Two Characters | 19 |
+| 5 | Premier Cru and the Villages in Between | 17 |
+| 6 | The Ladder Comes Down | 16 |
+| 7 | The Year the Vineyards Rioted | 20 |
+| 8 | Scorecard | 18 |
+
+Total: 146 cards plus 8 card zeros. Episode medians run from 24 to 28 words, the maximum is 32,
+and hooks are 35-42 words. Eps 3 and 6 are below the ~20 guide: I chose brevity over padding.
+
+## Checks run
+
+- **Format.** All six episode keys are present on every episode (set-equality). n runs 1-8; the
+  callback is null only on ep1 and the setup is null only on ep8.
+- **Browser walk.** Chromium at 390px light and 1100px dark. A keyboard walk ran all 154 screens
+  through all eight episodes ("Next episode" chains them). There was no horizontal scroll, no
+  target under 44px, zero foreign requests and zero console errors. Focus returns on close, and
+  Escape and the Tab trap work.
+- **Card zeros.** Read for ep4, ep7 and ep8 at 390px. In each, the callback and hook share the
+  screen without repeating each other.
+- **Links.** /, /guide.html, /school.html, /privacy.html, /accessibility.html, /learn/ and
+  /learn/cards/ all return 200 from the real atlas tree. The cards contain no Atlas links.
+- **predeploy.py (no --accept).** It reported PASS, but that pass DOES NOT COVER learn/:
+  - it counts 19 pages from a top-level glob;
+  - its browser smoke test skipped ("Chrome not found");
+  - it wrote versions.json, which was reverted. See COMMS F39.
+
+## Verification record, eps 2-8
+
+All of this is secondary: search excerpts plus the Atlas's own data. Every number below is
+somewhere in the cards.
+
+- **Price mechanics** (a village is paid its percentage of the top price; 100 vs 90 = nine-tenths).
+  Sources: Wikipedia, Taittinger, Cavesa, wine-law.org. The arithmetic is exact.
+- **Growers sell to houses; houses buy grapes.** School (Growers & Houses), UMC.
+- **The informal scale before a formally agreed one (1911, then 1919).** Wikipedia, GuildSomm and
+  the UMC "Between the Wars" page, via excerpts. No founding year is asserted on any card.
+- **CIVC created 1941.** Wikipedia gives 12 April 1941; Légifrance and an agriculture ministry
+  notice cite "loi du 12 avril 1941". The cards say "1941" only.
+- **1911 scale: 11 villages at 100%, listed by name.** A single secondary source (a search excerpt
+  citing champagnegallery and others). FLAG: confirm against a primary source before shipping.
+- **Puisieulx joined later, "traditionally harvested with Sillery".** The same single source. FLAG.
+- **First scale floor "less than half".** Sources give 46% or 22.5%; both are under 50, so the card
+  holds either way.
+- **The floor raised in stages to 80.** UMC (56% in 1920) and BKWine (80% by the end).
+- **Aube at 80%, never higher.** `echelle.js` (every Aube village is 80, Montgueux included) and
+  secondary sources.
+- **1985: Chouilly, Le Mesnil-sur-Oger, Oger, Oiry, Verzy; 12 to 17.** Wikipedia EN/FR and SITE.
+  One source says 1989 for a promotion; the cards keep 1985, which the majority give.
+- **Ep4 geography.** The nine Montagne grand crus, plus Aÿ and Tours-sur-Marne by the Marne, plus
+  six on the Côte des Blancs; 9 + 2 + 6 = 17. The villages.html region grouping places
+  Beaumont-sur-Vesle in "other", while the card says "the Montagne and its edges". The Côte des
+  Blancs order is north to south.
+- **Ep4 grape character.** Sillery and Puisieulx "a good deal of Chardonnay and Meunier", and
+  Meunier not the main grape of any grand cru village. Source: villages.html planting figures,
+  whose provenance I did not trace. FLAG.
+- **Verzenay and Mailly on the northern side; Bouzy and Ambonnay on the southern.** villages.html
+  blurbs and general sources.
+- **42 premier cru.** DGCCRF 2022 and school.html.
+- **Ep5 examples.** Mareuil-sur-Aÿ and Tauxières-Mutry at 99; Vertus 95; Hautvillers and Cumières
+  93; Damery 89. All from `echelle.js`. The card says "among the villages at 99" because echelle.js
+  covers only 36 premier crus.
+- **1990: binding price replaced by indicative after the interprofessional contract failed; EU
+  competition pressure.** GuildSomm (Stevenson) and UMC "How Winegrowers and Houses do business
+  together".
+- **Fully free market "about 2000 to 2004".** GuildSomm says 2000, Cavesa says 2004. The card
+  states the disagreement.
+- **CIVC no longer sets prices but manages harvest size.** AAWE working paper; Wikipedia.
+- **2010 retirement; décret n° 2010-1441 of 22 November 2010 on the AOC.** Wikipedia (the scale)
+  and Légifrance (the decree title). The card says the two happened in the same year; it does NOT
+  claim the decree did the retiring.
+- **The 2024 rules still list villages.** INAO CDCPNOChampagne20240911.pdf (excerpt).
+- **Higher prices in famous villages.** A 2021 per-kilo figure in an excerpt (€5.76 to €6.96).
+  No figure is on any card.
+- **Riots, ep7.**
+  - The 1908 delimitation took in the Marne and Aisne and excluded the Aube (UMC).
+  - Bad harvests (mildew, frost, phylloxera) and the 1910 disaster (Wikipedia, others). No "96%" on
+    any card.
+  - Outside grapes undercutting local growers (several sources).
+  - January 1911, Damery and Hautvillers, loads tipped into the Marne (several sources).
+  - The Aube's exclusion confirmed early 1911. The decree date conflicts (2, 6 or 16 February), so
+    the card says "early in 1911".
+  - The Troyes demonstration; no number is given.
+  - April 1911: a Senate move read as threatening the boundary; Aÿ worst hit.
+  - Troops sent; the card says the numbers differ widely.
+  - 7 June 1911 decree: the Aube as a second zone (two sources).
+  - 1927: second zone abolished.
+  - "Riots as a pressure behind the AOC system" is softened to "often described as".
+- **Phylloxera "kills vines by attacking their roots".** General knowledge, not separately sourced.
+  FLAG (low risk).
+
+## Corrections relayed to SITE (COMMS F39)
+
+- The school.html and guide.html riots sentence: the Aube rioted over exclusion, not an 80% rating.
+- The guard's coverage gap for learn/, and predeploy writing files without --accept.
+
+## Pending with James
+
+1. Confirm the two spine changes (ep7 riots, ep4 geography).
+2. Voice and card length: the medians run 24-28 words against the house 23-24.
+3. Thread 2's spine (How Champagne Is Made), before any cards.
+4. Tags for this thread are ["Place", "Trade"], my choice; James approved only the tag set.
+
+---
+
 # Bubble Cards — answers for SITE (round 2)
 
 Written 2026-10-24. The earlier handoff follows below these answers.

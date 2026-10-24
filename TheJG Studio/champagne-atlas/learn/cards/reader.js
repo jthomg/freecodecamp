@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  var INDEX_URL = "threads.json?v=3b27610b77";
+  var INDEX_URL = "threads.json?v=1e2124c8f8";
   var THEME_KEY = "bc:theme";
   var PROGRESS_KEY = "bc:progress";
 
