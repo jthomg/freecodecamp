@@ -1,0 +1,39 @@
+{
+  "id": "grand-cru-premier-cru",
+  "title": "Grand Cru, Premier Cru",
+  "subtitle": "What those words on a champagne label promise, where they came from, and what they leave for your glass to decide.",
+  "planned": 8,
+  "tags": ["Place", "Trade"],
+  "episodes": [
+    {
+      "n": 1,
+      "title": "The Words on the Label",
+      "hook": "If you have ever stood in front of a shelf of champagne and wondered whether grand cru on the label means a better wine, you are in very good company. The real answer is kinder, and more interesting, than a simple yes.",
+      "callback": null,
+      "cards": [
+        "Cru is a French word meaning a growth, from the verb croître, to grow. On a wine label it points to the place where the grapes grew.",
+        "So when a champagne label says grand cru or premier cru, it is telling you about where the grapes came from rather than about the house that made the wine.",
+        "In Champagne, that place is a whole village, which the French call a commune. Every vineyard within a grand cru village shares the village's rank.",
+        "This is different from Burgundy, where a grand cru is a single named vineyard, and it is that vineyard's own name you find on the label.",
+        "It differs from Bordeaux as well, where the celebrated classifications rank estates, the châteaux, rather than villages or individual vineyards.",
+        "Champagne chose the village. Seventeen villages are entitled to call their grapes grand cru, and a longer list of villages may call theirs premier cru.",
+        "The rule on the label is careful and strict. A champagne may say grand cru only if every grape in it was grown in those seventeen villages.",
+        "Premier cru follows the same principle, with one generous detail: grand cru villages may use the premier cru name too, so a premier cru blend can include their grapes.",
+        "If even a small part of the blend came from a village outside the list, the phrase has to come off the label, however lovely the wine may be.",
+        "Some labels go a step further and name the village itself, Ambonnay or Avize, for instance. Then every grape in the bottle must come from that one village.",
+        "You will not find cru classé on a champagne label. That phrase belongs to the rules of other regions, and Champagne's regulations do not permit it.",
+        "Behind grand cru and premier cru sits a ladder of percentages called the échelle des crus, which gave each of Champagne's wine-growing villages its own number.",
+        "Grand cru villages stood at the top of that ladder, at one hundred per cent, with the premier cru villages just below them, from ninety to ninety-nine.",
+        "Every other village was rated somewhere in the eighties. Those numbers never appeared on a bottle, but for a long time they shaped the life of every vineyard.",
+        "The ladder itself has since been retired, yet the two phrases it gave the label are still in use, which is why you continue to see them today.",
+        "Because a rank belongs to the whole village, it is shared by every grower and every slope within it, the exceptional corners and the ordinary ones alike.",
+        "That is why some growers and writers will gently point out that some sites outside the top villages make wines every bit as fine as their grander neighbours.",
+        "Many of the great houses blend grapes from a number of villages, because blending, which the French call assemblage, is how they keep a style consistent from year to year.",
+        "A blend like that may contain superb grand cru grapes and still carry no cru at all on the label, simply because other villages have a share in it too.",
+        "So when the words are missing, please do not read it as a warning. Very often it means the winemaker chose to draw on more than one place.",
+        "And when the words are there, they are a promise about origin, kept precisely. They tell you where the champagne grew, and leave the question of how good it is to you."
+      ],
+      "setup": "Why would anyone give a single number to an entire village? The answer begins far from the dinner table, with a much plainer question about what a kilo of grapes was worth."
+    }
+  ]
+}

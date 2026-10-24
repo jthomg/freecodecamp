@@ -1,0 +1,16 @@
+{
+  "threads": [
+    {
+      "id": "grand-cru-premier-cru",
+      "title": "Grand Cru, Premier Cru",
+      "subtitle": "What those words on a champagne label promise, where they came from, and what they leave for your glass to decide.",
+      "tags": [
+        "Place",
+        "Trade"
+      ],
+      "planned": 8,
+      "path": "threads/open/grand-cru-premier-cru.json",
+      "v": "25724efd96"
+    }
+  ]
+}
